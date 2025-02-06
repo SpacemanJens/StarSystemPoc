@@ -113,8 +113,6 @@ function draw() {
     drawBackHole(redStarX, redStarY);
   }
 
-  fill(255);
-  ellipse(commonCenterX, commonCenterY, 8, 8);
 /*
   stroke(100);
   noFill();
@@ -149,6 +147,8 @@ function drawBackHole(x, y) {
 }
 
 function drawYellowStar(x, y) {
+  fill('black');
+  circle(x, y, 110);
   drawStar(x, y, 430, 800, 1500, 1010, 50, 550, 300, 400, 300, 0);
 }
 
