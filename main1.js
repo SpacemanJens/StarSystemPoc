@@ -147,7 +147,7 @@ function drawBackHole(x, y) {
 }
 
 function drawYellowStar(x, y) {
-  fill('black');
+  fill(0);
   circle(x, y, 110);
   drawStar(x, y, 430, 800, 1500, 1010, 50, 550, 300, 400, 300, 0);
 }
