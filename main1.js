@@ -2,7 +2,7 @@
 let angleStars = 0;
 let starSpeed = 0.5;
 
-// Planet configuration
+// Planet configurationdf
 const planets = [
     {
         angle: 10,
